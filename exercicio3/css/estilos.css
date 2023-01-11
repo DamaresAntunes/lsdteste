@@ -3,7 +3,6 @@
     src: url('../fontes/Pacifico-Regular.ttf');
 }
 body{
-    background: red;
     font-family: 'Arial';
     margin: 0;
     padding: 0;
@@ -64,7 +63,7 @@ header .col-3 a:hover{
 
 }
 
-.conteudo{
+.content{
     width: 50%;
     min-height: 150px;
     margin-left:25%;
@@ -73,11 +72,18 @@ header .col-3 a:hover{
     float: left;
 }
 
-.conteudo h1{
+.content h1{
     color: #25a2c3;
+    font-size: 22px;
+    padding: 20px 0;
 
 }
-.conteudo button{
+
+.content p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.content button{
     background: #f6755e;
     border: none;
     color: #ffffff;
@@ -93,20 +99,115 @@ header .col-3 a:hover{
     float: left;
 }
 
+.articles .center-articles{
+    width: 70%;
+    height: 500px;
+    background: red;
+    margin-left: 15%;
+}
+
+.center-articles .col1,
+.center-articles .col2,
+.center-articles .col3{
+    width: 33.33%;
+    float: left;
+}
+
+.articles .col1 h2,
+.articles .col3 h2{
+    color: #25a2c3;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.articles .col3 h2{
+    text-align: left;
+}
+
+.center-articles .col1 div,
+.center-articles .col3 div{
+    width: 70%;
+    float:right;
+    margin-bottom: 30px;
+}
+.center-articles .col3 div{
+    float: left;
+}
+.center-articles .col1 p,
+.center-articles .col3 p{
+    text-align: justify;
+    color: #767d85;
+}
+
+.center-articles .col2 .moldura{
+    width: 200px;
+    height: 200px;
+    background: grey;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.center-articles .col2 .moldura img{
+    width: 100%;
+}
 .highlights{
 
     width: 100%;
     height: 200px;
-    background: purple;
+    background: #f6755e;
     float: left;
+    color: #ffffff;
+    text-align: center;
+}
+.highlights h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlights p:nth-child(2){
+    font-style: italic;
+}
+.highlights span{
+    font-weight: bold;
 }
 .latest-news{
     width: 100%;
-    height: 250px;
-    background: grey;
+    height: 500px;
     float: left;
+    text-align: center;
 }
 
+.center-latest-news{
+    width: 70%;
+    margin: 0 auto;
+    float: left;
+    background: white;
+    margin-left: 15%;
+    
+
+}
+.center-latest-news .col4,
+.center-latest-news .col5,
+.center-latest-news .col6{
+    width:calc(33.33% - 22px) ;
+    float: left;
+    margin: 0 10px;
+    border: 1px solid #000;
+    
+}
+
+.center-latest-news div img{
+    width: 100%;
+}
+.center-latest-news div h3{
+    padding-left: 20px;
+    color: #25a2c3;
+    font-weight: bold;
+}
+.center-latest-news div p{
+    padding: 20px;
+    color: #767d85;
+}
 footer{
     width: 100%;
     height:150px;
