@@ -1,6 +1,7 @@
 @font-face { /* define uma nova fonte */
     font-family: pacifico;
     src: url('../fontes/Pacifico-Regular.ttf');
+    
 }
 body{
     font-family: 'Arial';
@@ -102,7 +103,6 @@ header .col-3 a:hover{
 .articles .center-articles{
     width: 70%;
     height: 500px;
-    background: red;
     margin-left: 15%;
 }
 
@@ -218,7 +218,6 @@ footer{
 .col-1{
     width: 20%;
     height: 44px;
-    background: green;
     float: left;
 }
 
@@ -238,3 +237,8 @@ footer{
 
 }
 
+.icon-menu-principal{
+    font-size: 30px;
+    color: #767d85;
+    padding: 10px;
+}
