@@ -242,3 +242,16 @@ footer{
     color: #767d85;
     padding: 10px;
 }
+
+.titulo {
+color:white;
+text-align: center;
+font-weight: bold;
+
+}
+
+.paragrafo {
+    color:white;
+    text-align: center;
+    
+    }
