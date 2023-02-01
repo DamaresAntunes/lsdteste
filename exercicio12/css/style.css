@@ -1,0 +1,114 @@
+.caixa1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: animaCaixa 3s forwards ;
+}
+
+.caixa2{
+    width: 100px;
+    height: 20px;
+    background-color:green;
+    animation: animaCaixa2 15s forwards ;
+}
+
+.caixa3{
+    width: 100px;
+    height: 18px;
+    background-color: pink;
+    overflow: hidden;
+    /*animation: animaCaixa3hover 10s forwards ;*/
+}
+
+.caixa3:hover{
+    animation: animaCaixa3 3s forwards;
+}
+
+@keyframes animaMenu {
+    from{
+        height: 18px;
+    }
+    
+    to{
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+/*@keyframes animaCaixa {
+    from{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+
+    to{
+        background-color: yellow;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@keyframes animaCaixa2 {
+    0%{
+        background-color: green;
+        height: 20px;
+    }
+
+    20%{
+        background-color: yellow;
+    }
+
+    80%{
+        background-color: purple;
+    }
+
+    100%{
+        background-color: green;
+        height: 100px;
+    }
+
+   
+}
+*/
+@keyframes animaCaixa3 {
+    0%{
+        background-color: purple;
+        height: 10px;
+    }
+
+    20%{
+        background-color: pink;
+        height: 50px;
+    }
+
+    80%{
+        background-color: rosybrown;
+        height: 80px;
+    }
+
+    100%{
+        background-color: gray;
+        height: 100px;
+    }
+
+
+
+
+}
+/*
+.caixa3hover{
+    display: none;
+}
+
+.caixa3 li{
+    width: 100%;
+}
+
+.caixa3 li:hover .caixa3hover{
+    display: block;
+}*/
