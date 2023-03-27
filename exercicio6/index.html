@@ -10,23 +10,25 @@
     <link rel="stylesheet" href="fontes/fonteawesome/css/all.css ">
     <title>Exercico 6</title>
 </head>
-<body>
+<body onresize="normalizaMenuMobile()">
     <nav class="menu-mobile">
-        <i class="fa-sharp fa-solid fa-bars icon-menu-principal" onclick="mostraConteudoMenu()"></i>
-        <ul id="itens-mobile">
-            <li>
+        <span id="texto-menu" onclick="mostraConteudoMenu()">
+            <i class="fa-sharp fa-solid fa-bars icon-menu-principal"></i>
+    </span>
+            <ul id="itens-mobile">
+             <li>
                 <a> link 1 </a>
-            </li>
-            <li>
+             </li>
+             <li>
                 <a> link 2 </a>
-            </li>
-            <li>
+             </li>
+             <li>
                 <a> link 3 </a>
-            </li>
-            <li>
+             </li>
+             <li>
                 <a> link 4 </a>
-            </li>
-        </ul>
+             </li>
+            </ul>
     </nav>
     <nav class="menu-desktop">
         <ul>
