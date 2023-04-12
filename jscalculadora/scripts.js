@@ -42,6 +42,9 @@ function fazConta(){
     }
 
     document.querySelector('.resultados').innerText += "=" +resultado;
+    document.querySelector("input[name=parcela1]").value= resultado;
+    document.querySelector("input[name=parcela2]").value= "";
+
 }
 
 function limpaTudo(){
