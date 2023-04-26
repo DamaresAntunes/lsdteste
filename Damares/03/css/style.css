@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul , li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.wrapper{
+    width: 70%;
+    float: left;
+    margin: 0 15%;
+}
+
+.content{
+    width: calc(70% - 2px);
+    float: left;
+    border: 1px solid gray;
+    margin-left: 15%;
+    min-height: 400px;
+}
